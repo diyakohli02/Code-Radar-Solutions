@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int a;
+    int num;
     scanf("%d",&a);
-    if (a&1){
+    if (num & 1){
         printf("Set");
     }
     else{
