@@ -9,7 +9,7 @@ int main() {
     } else if (ch >= 'a' && ch <= 'z') {
         printf("Lowercase");
     } else {
-        printf("The character is not an alphabet letter.\n");
+        printf("Not an alphabet");
     }
 
     return 0;
